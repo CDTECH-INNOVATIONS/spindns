@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "dns2": "^2.0.1"
+  },
+  "name": "spindns",
+  "description": "spinberdns",
+  "version": "1.0.0",
+  "main": "dns.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CDTECH-INNOVATIONS/spindns.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CDTECH-INNOVATIONS/spindns/issues"
+  },
+  "homepage": "https://github.com/CDTECH-INNOVATIONS/spindns#readme"
+}
