@@ -1,0 +1,2 @@
+# spindns
+spinberdns
