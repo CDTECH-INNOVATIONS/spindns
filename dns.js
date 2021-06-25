@@ -21,17 +21,17 @@ if (err) {
 		      class: Packet.CLASS.IN,
 		      ttl: 300,
 		      address: '127.0.0.1'
-		    });     console.log(response.answers[0].address); send(response);
+		    });  console.log(response.answers[0].address); send(response);
 
 
-  }
+  } else{
 		    response.answers.push({
 		      name,
 		      type: Packet.TYPE.A,
 		      class: Packet.CLASS.IN,
 		      ttl: 300,
 		      address: data
-		    });     console.log(response.answers[0].address); send(response);
+		    });     console.log(response.answers[0].address); send(response); }
   });
     //console.log(question.name);
 
