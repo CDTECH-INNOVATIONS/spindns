@@ -15,7 +15,15 @@ const server = dns2.createServer({
 if (err) {
 	//console.error(err); 
 	console.log("FILE READ ERROR : Record probably doesn't exist");
-    return
+		    response.answers.push({
+		      name,
+		      type: Packet.TYPE.A,
+		      class: Packet.CLASS.IN,
+		      ttl: 300,
+		      address: '127.0.0.1'
+		    });     console.log(response.answers[0].address); send(response);
+
+
   }
 		    response.answers.push({
 		      name,
